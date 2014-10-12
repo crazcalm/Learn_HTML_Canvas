@@ -47,7 +47,8 @@ function canvasApp() {
     helloWorldImage.onload = function() {
       context.drawImage(helloWorldImage, 155, 110);
     };
-    helloWorldImage.src = "https://2.bp.blogspot.com/-EV3Cbv848XY/U9ruxqoDcMI/AAAAAAAACog/BB3HM_wv6FU/s1600/hello.png";
+
+    helloWorldImage.src = "http://127.0.0.1:5000/static/images/hello.png"
 
     //box
     context.strokeStyle = "#000000";
