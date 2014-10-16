@@ -18,7 +18,7 @@ function eventWindowLoaded() {
 
   videoElement.addEventListener("canplaythrough", videoLoaded, false);
   //videoElement.setAttribute("src", "static/video/Sample." + videoType);
-  videoElement.setAttribute('src', "static/video/Sample.ogv");
+  videoElement.setAttribute('src', "static/video/Sample2.ogv");
 
 };
 
