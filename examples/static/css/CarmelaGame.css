@@ -1,0 +1,23 @@
+html {
+  height: 120%;
+  width: 100%;
+  padding-bottom: 200px;
+  background-color:yellow;
+  background-image: url("../images/background2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+      }
+
+#canvasPosition {
+
+  position: relative;
+  top: 50%;
+  left: 30%;
+}

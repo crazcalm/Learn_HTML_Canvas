@@ -81,8 +81,8 @@ function canvasApp() {
           placeX, placeY, partWidth, partHeight);
 
         //debugging
-        console.log("Debugging drawImage");
-        console.log(videoElement, imageX, imageY, partWidth, partHeight, placeX, placeY);
+        //console.log("Debugging drawImage");
+        //console.log(videoElement, imageX, imageY, partWidth, partHeight, placeX, placeY);
 
         if (tempPiece.selected) {
           context.strokeRect(placeX, placeY, partWidth, partHeight);
@@ -122,7 +122,7 @@ function canvasApp() {
       }
 
       //debugging
-      console.log(newBoard);
+      //console.log(newBoard);
       return newBoard;
     }
 
@@ -139,10 +139,10 @@ function canvasApp() {
         x = event.pageX;
         y = event.pageY;
       } else {
-        x = e.clientX + document.body.scrollLeft +
+        x = event.clientX + document.body.scrollLeft +
         document.documentElement.scrollLeft;
 
-        y = e.clientY + document.body.scrollTop +
+        y = event.clientY + document.body.scrollTop +
         document.documentElement.scrollTop;
       }
 
@@ -153,7 +153,7 @@ function canvasApp() {
       mouseY = y;
 
       //debugging
-      console.log("mouseX " + x + ", mouseY: " + y);
+      //console.log("mouseX " + x + ", mouseY: " + y);
 
       var selectedList = new Array();
 
