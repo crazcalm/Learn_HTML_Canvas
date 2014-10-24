@@ -9,15 +9,28 @@ html {
 }
 
 body {
-  margin: 0;
+  margin-top: -90px;
   padding: 0;
   height: 100%;
   width: 100%;
       }
 
+/*
+The click tracking is dependent on the location of the canvas...
+*/
 #canvasPosition {
 
   position: relative;
+  /*
   top: 50%;
   left: 30%;
+  */
+}
+
+#msg {
+  position: relative;
+  top: 40%;
+  left: 32%;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
 }

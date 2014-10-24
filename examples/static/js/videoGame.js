@@ -139,10 +139,10 @@ function canvasApp() {
         x = event.pageX;
         y = event.pageY;
       } else {
-        x = e.clientX + document.body.scrollLeft +
+        x = event.clientX + document.body.scrollLeft +
         document.documentElement.scrollLeft;
 
-        y = e.clientY + document.body.scrollTop +
+        y = event.clientY + document.body.scrollTop +
         document.documentElement.scrollTop;
       }
 
