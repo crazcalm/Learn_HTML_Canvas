@@ -26,11 +26,23 @@ The click tracking is dependent on the location of the canvas...
   left: 30%;
   */
 }
+h1, h2 {
+  color: darkturquoise;
+}
 
 #msg {
   position: relative;
-  top: 40%;
-  left: 32%;
+  top: 50%;
+  left: 30%;
   font-family: Papyrus, fantasy;
   font-weight: bold;
+}
+
+#msg_body {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+
 }
